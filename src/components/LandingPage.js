@@ -12,7 +12,6 @@ const LandingPage = () => {
       
       <section id="home" className="home-section">
         <button><a href="book">Book A Move</a></button>
-        <h1></h1>
       </section>
 
       <section id="about" className="about-us-section">
