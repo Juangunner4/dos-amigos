@@ -28,10 +28,10 @@ const LandingPage = () => {
       <section id="services" className="services-section">
         <h2>Our Services</h2>
         <ul>
-          <li>Deck Design and Installation</li>
-          <li>Deck Repair and Maintenance</li>
-          <li>Deck Staining and Sealing</li>
-          <li>Custom Railing Design and Installation</li>
+          <li>Too busy to pack? Let one of our experts help! We can save you some time packing up your belongings to help maximize space in the moving truck and saving you time and stress. It doesn't matter if it's only one room or the whole house. We can help!</li>
+          <li>We also offer hourly labor services in case you have your own truck and only need help packing or unpacking. We can help rearrange or moving, loading or unloading furniture as well. 2 Amigos Moving & Labor Express LLC can send as many expert movers to help you with the work as you need. Call us for the all your moving or transport needs!!</li>
+          <li>While we are mostly working in the Virginia and DMV area, 2 Amigos Moving can certainly handle larger and longer distant moves. Across states or the country, we offer a complete line of services, including packing, moving, transport and storage services . We have a great partnership with U-haul and we occasionally use them to accommodate a complete long distance moves. Although we are a locally owned moving company, do not think our services are limited to local moves. We are willing and able to help with any type of move big or small. We are fully licensed and insured, providing you with the peace of mind that your cherished possessions will arrive safely and on time. Next time you are consider a move, please call the 2 Amigos Moving & Labor Express LLC - we offer door-to-door local and long distance moving services and labor at affordable competitive rates!!</li>
+          <li>We offer additional 3rd party services to streamline your move. We offer services that range from home theater reinstallation to pet boarding and cleaning services and much more. If you have any requirement during your move that you might think is outside the scope of a traditional moving service, please don't hesitate to ask one of our Moving Consultants.</li>
         </ul>
       </section>
 
