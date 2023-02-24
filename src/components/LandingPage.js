@@ -74,8 +74,7 @@ const LandingPage = () => {
   <h2>Follow us on social media</h2>
   <div class="social-icons">
     
-    <a href="https://www.facebook.com/people/Potros-Construction-LLC/100088412003757/" target="_blank"><i class="fa-facebook"><FontAwesomeIcon icon={['fab', 'facebook-f']} /></i></a>
-    <a href="https://www.instagram.com/potrosdecks/" target="_blank"><i class="fa-instagram"><FontAwesomeIcon icon={['fab', 'fa-instagram']} /></i></a>
+    <a href="https://www.facebook.com/2AmigosMoving/" target="_blank"><i class="fa-facebook"><FontAwesomeIcon icon={['fab', 'facebook-f']} /></i></a>
   </div>
 </section>
 <div>
