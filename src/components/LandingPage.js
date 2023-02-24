@@ -15,12 +15,12 @@ const LandingPage = () => {
       </section>
 
       <section id="about" className="about-us-section">
+      <div className="about-us-image">
+          <img src={require("../images/AboutUs.JPG")} alt="About Us" />
+        </div>
         <div className="about-us-content">
           <h2>About Us</h2>
           <p>2 Amigos Moving & Labor Express LLC is committed to being the best full service moving company in Virginia and DMV as well as North and South Carolina area. Since our founding in 2019 our team is dedicated to make your moving experience as smooth and stress free as possible! We proudly employ only the best and most professional moving crew in the industry. The 2 Amigos Moving team focuses on each aspect of your move, from the initial planning & logistics to the packing (if needed) and our final walk through and clean up. We consider ourselves a full service company that is able to move apartments, homes and businesses. We treat our customers like family, from your first contact with our moving consultant to the ending walkthrough and completion of your move. We will always treat our customers with the utmost professionalism. 2 Amigos Moving & Labor Express is a full service moving company primarily serving the Virginia, DMV and greater Hampton roads. We offer complete relocation services to meet any move requirements. Residential, commercial or industrial, we are equipped and ready to make your experience as stress free as possible!.</p>
-        </div>
-        <div className="about-us-image">
-          <img src={require("../images/AboutUs.JPG")} alt="About Us" />
         </div>
       </section>
 
