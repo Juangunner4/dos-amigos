@@ -1,8 +1,9 @@
 import React from "react";
-
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import CaptCha from "./reCaptcha";
 
 library.add(fab);
 
@@ -65,6 +66,7 @@ const LandingPage = () => {
         <textarea id="message" name="message" row="6" required></textarea>
       </div>
       <button type="submit">Send Message</button>
+      <CaptCha />
     </form>
   </div>
 
