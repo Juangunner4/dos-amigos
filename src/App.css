@@ -121,6 +121,64 @@
   border-radius: 50%;
 }
 
+.location-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  margin: 90px 0;
+}
+
+.location-section h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.location-section iframe {
+  flex: auto;
+  max-width: 400px;
+}
+
+.hours-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  margin: 90px 0;
+}
+
+.hours-section h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.hours-section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hours-section ul li {
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.hours-section ul li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 10px;
+  height: 10px;
+  background-color: #494949;
+  border-radius: 50%;
+}
+
 .gallery-section {
   margin: 100px 0;
   padding: 20px;

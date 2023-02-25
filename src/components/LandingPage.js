@@ -3,10 +3,14 @@ import React from "react";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import Iframe from "./Location" 
 library.add(fab);
 
 const LandingPage = () => {
+  const demos = {
+    googlelocation:
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3124.418435150721!2d-78.85277288426383!3d38.45490007964116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x89b4ed4d4cb3248f%3A0xe29cea4321ca6a47!2s582%20Vine%20St%2C%20Harrisonburg%2C%20VA%2022802!3m2!1d38.454900099999996!2d-78.8505842!5e0!3m2!1sen!2sus!4v1598548766589!5m2!1sen!2sus" width="550" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>'
+  };
   return (
     <div className="landing-page-container">
       
@@ -32,6 +36,25 @@ const LandingPage = () => {
           <li>While we are mostly working in the Virginia and DMV area, 2 Amigos Moving can certainly handle larger and longer distant moves. Across states or the country, we offer a complete line of services, including packing, moving, transport and storage services . We have a great partnership with U-haul and we occasionally use them to accommodate a complete long distance moves. Although we are a locally owned moving company, do not think our services are limited to local moves. We are willing and able to help with any type of move big or small. We are fully licensed and insured, providing you with the peace of mind that your cherished possessions will arrive safely and on time. Next time you are consider a move, please call the 2 Amigos Moving & Labor Express LLC - we offer door-to-door local and long distance moving services and labor at affordable competitive rates!!</li>
           <li>We offer additional 3rd party services to streamline your move. We offer services that range from home theater reinstallation to pet boarding and cleaning services and much more. If you have any requirement during your move that you might think is outside the scope of a traditional moving service, please don't hesitate to ask one of our Moving Consultants.</li>
         </ul>
+      </section>
+
+      
+      <section id="location" className="location-section">
+        <h2>Location</h2>
+        <Iframe iframe={demos["googlelocation"]} allow="autoplay" />
+      </section>
+
+      <section id="hours" className="hours-section">
+				<h2>Business hours</h2>
+        <ul>
+					<li>Mon:	8:00 AM – 7:00 PM</li>
+					<li>Tue:	8:00 AM – 7:00 PM</li>
+					<li>Wed:	8:00 AM – 7:00 PM</li>
+					<li>Thu:	8:00 AM – 7:00 PM</li>
+					<li>Fri:	8:00 AM – 7:00 PM</li>
+					<li>Sat:	8:00 AM – 5:00 PM</li>
+					<li>Sun:	Closed</li>
+				</ul>
       </section>
 
       <section id="gallery" className="gallery-section">
