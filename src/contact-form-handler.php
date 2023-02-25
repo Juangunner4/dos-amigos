@@ -7,11 +7,13 @@ if ($_POST) {
     $name = $_POST['name'];
     $visitor_email = $_POST['email'];
     $message = $_POST['message'];
+    $visitor_phone = $_POST['phone'];
 
     $email_subject = "Contact:New Form Submission";
 
     $email_body = "Client Name: $name.\n".
                     "User Email: $visitor_email.\n".
+                    "User Phone: $visitor_phone.\n"
                         "User Message: $message.\n";
 
     $to = "potrosconstruction@gmail.com";

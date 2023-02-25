@@ -11,7 +11,7 @@ const LandingPage = () => {
     <div className="landing-page-container">
       
       <section id="home" className="home-section">
-        <button><a href="book" target="_blank">Book A Move</a></button>
+        <button><a href="https://dosamigosmoving.com/book/index.php" target="_blank">Book A Move</a></button>
       </section>
 
       <section id="about" className="about-us-section">
