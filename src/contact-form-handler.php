@@ -13,7 +13,7 @@ if ($_POST) {
 
     $email_body = "Client Name: $name.\n".
                     "User Email: $visitor_email.\n".
-                    "User Phone: $visitor_phone.\n"
+                    "User Phone: $visitor_phone.\n".
                         "User Message: $message.\n";
 
     $to = "2amigosmovingexpress@gmail.com";
