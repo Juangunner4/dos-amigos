@@ -35,7 +35,9 @@ function Header() {
               <Navbar.Item><li><a href="#contact">(540)-860-0699</a></li></Navbar.Item>
               <Navbar.Item><li><a href="#home">Home</a></li></Navbar.Item>
               <Navbar.Item><li><a href="#about">About Us</a></li></Navbar.Item>
-              <Navbar.Item><li><a href="#services">Services</a></li></Navbar.Item>
+              <Navbar.Item><li><a href="#services">Services</a></li></Navbar.Item> 
+              <Navbar.Item><li><a href="#location">Location</a></li></Navbar.Item> 
+              <Navbar.Item><li><a href="#hours">Hours</a></li></Navbar.Item> 
               <Navbar.Item><li><a href="#contact">Contact Us</a></li></Navbar.Item>
             </Navbar.Items>
           </Navbar.Wrapper>

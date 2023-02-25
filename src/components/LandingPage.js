@@ -15,7 +15,7 @@ const LandingPage = () => {
     <div className="landing-page-container">
       
       <section id="home" className="home-section">
-        <button><a href="https://dosamigosmoving.com/book/index.php" target="_blank">Book A Move</a></button>
+        <button><a href="https://dosamigosmoving.com/book/index.php" target="noopener noreferrer">Book A Move</a></button>
       </section>
 
       <section id="about" className="about-us-section">
@@ -97,7 +97,7 @@ const LandingPage = () => {
   <h2>Follow us on social media</h2>
   <div class="social-icons">
     
-    <a href="https://www.facebook.com/2AmigosMoving/" target="_blank"><i class="fa-facebook"><FontAwesomeIcon icon={['fab', 'facebook-f']} /></i></a>
+    <a href="https://www.facebook.com/2AmigosMoving/" target="noopener noreferrer"><i class="fa-facebook"><FontAwesomeIcon icon={['fab', 'facebook-f']} /></i></a>
   </div>
 </section>
 <div>
