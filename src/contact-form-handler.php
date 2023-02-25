@@ -16,7 +16,7 @@ if ($_POST) {
                     "User Phone: $visitor_phone.\n"
                         "User Message: $message.\n";
 
-    $to = "potrosconstruction@gmail.com";
+    $to = "2amigosmovingexpress@gmail.com";
 
     $headers = "From: $email_from \r\n";
 
@@ -29,11 +29,11 @@ if ($_POST) {
     else
     {
       echo "<p>Mail not Sent</p> ";
-  	  $email_from = "contact@potrosconstruction.com";
+  	  $email_from = "contact@dosamigosmoving.com";
   	  $email_subject = "New Form Submission Error";
   	  $email_body = "was not able to send email to $to.\n".
                     " $visitor_email is requesting access ".
-  	  $errorto = "contact@potrosconstruction.com";
+  	  $errorto = "contact@dosamigosmoving.com";
   	  $headers = "From: $email_from \r\n";
   	  $headers = "Reply-To: $visitor_email \r\n";
   	  mail($errorto,$email_subject,$email_body,$headers);
