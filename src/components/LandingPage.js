@@ -41,7 +41,7 @@ const LandingPage = () => {
       
       <section id="location" className="location-section">
         <h2>Location</h2>
-        <Iframe iframe={demos["googlelocation"]} allow="autoplay" />
+        <Iframe iframe={demos["googlelocation"]} />
       </section>
 
       <section id="hours" className="hours-section">
