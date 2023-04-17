@@ -47,13 +47,12 @@ const LandingPage = () => {
       <section id="hours" className="hours-section">
 				<h2>Business hours</h2>
         <ul>
-					<li>Mon:	8:00 AM – 7:00 PM</li>
-					<li>Tue:	8:00 AM – 7:00 PM</li>
-					<li>Wed:	8:00 AM – 7:00 PM</li>
-					<li>Thu:	8:00 AM – 7:00 PM</li>
-					<li>Fri:	8:00 AM – 7:00 PM</li>
-					<li>Sat:	8:00 AM – 5:00 PM</li>
-					<li>Sun:	Closed</li>
+					<li>Mon:	9:00 AM – 7:00 PM</li>
+					<li>Tue:	9:00 AM – 7:00 PM</li>
+					<li>Wed:	9:00 AM – 7:00 PM</li>
+					<li>Thu:	9:00 AM – 7:00 PM</li>
+					<li>Fri:	9:00 AM – 7:00 PM</li>
+					<li>Sat:	9:00 AM – 5:00 PM</li>
 				</ul>
       </section>
 
